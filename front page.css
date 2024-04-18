@@ -47,12 +47,7 @@ body {
     font-weight: bold;
     margin-right: 4%;
     margin-top: 1%;
-    color: black;
 }
-.home-button:hover {
-    color: gray;
-}
-
 .about-us-button {
     all: unset;
     cursor: pointer;
@@ -64,11 +59,8 @@ body {
     font-weight: bold;
     margin-top: 1%;
     margin-right: 4%;
-    color: black;
 }
-.about-us-button:hover {
-    color: gray;
-}
+
 
 .events-button {
     all: unset;
@@ -82,10 +74,6 @@ body {
     font-weight: bold;
     margin-top: 1%;
     margin-right: 4%;   
-    color: black; 
-}
-.events-button:hover {
-    color: gray;
 }
 
 .contact-us-button {
@@ -99,30 +87,63 @@ body {
     font-weight: bold;
     margin-top: 1%;
     margin-right: 4%;
+}
+.links{
     color: black;
 }
-.contact-us-button:hover {
+.links:hover {
     color: gray;
-}
-
-.intro {
-    font-weight: bold;
-    margin: 0px;
-    margin-left: 15px;
-    font-size: 2vw;
-    width: 20%;
 }
 
 .name {
     font-weight: bold;
-    margin: 0px;
-    margin-left: 15px;
-    font-size: 40px;
-    width: 500px;
+    margin-top: -2%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 3vw;
-    width: 1200px;
+    width: 50%;
+    z-index: 100;
+    transform: translate(8%, -1000%);
+    position: relative;
 }
 
+.intro {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+    width: 20%;
+    z-index: 100;
+    transform: translate(10%, -1600%);
+    position: relative;
+    
+}
+.ldd-cover {
+    transform: translate(0%, 50%);
+    width: 100%;
+    margin: 0;
+    z-index: -100;
+    position: relative;
+}
+.discord {
+    z-index: 100;
+    position: relative;
+    width: 30%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    transform: translate(305%, -650%);
+    
+}
+.discord-button {
+    all: unset;
+    cursor: pointer;
+    
+    opacity: 1;
+    
+    
+}
 .about-us-information {
     display: inline-block;
     width: 25%;
