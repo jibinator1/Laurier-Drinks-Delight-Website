@@ -123,9 +123,9 @@ body {
     transform: translate(0%, 50%);
     width: 100%;
     margin: 0;
-    z-index: -100;
-    position: relative;
+    margin-top: 1%;
 }
+
 .discord {
     z-index: 100;
     position: relative;
@@ -142,7 +142,7 @@ body {
     cursor: pointer;
     width: 50%;
     opacity: 1;
-    transform: translate(82%, -540%);
+    transform: translate(81%, -530%);
     
 }
 .about-us-information {
@@ -157,4 +157,34 @@ body {
     margin-left: 12%;
     margin-top: 2%;
     vertical-align: top;
+}
+
+.oolong-origami1 {
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 6%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.oolong-origami2 {
+    border-radius: 20px;
+    width: 32.85%;
+    height: auto;
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: top;
+    object-fit: cover;
+    margin-bottom: 5%;
+
+}
+
+.oolong-origami-tall {
+    border-radius: 20px;
+    width: 20%;
+    height: 10%;
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: top;
+
 }
