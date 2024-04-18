@@ -123,8 +123,20 @@ body {
     transform: translate(0%, 50%);
     width: 100%;
     margin: 0;
-    margin-top: 1%;
 }
+.ldd-cover-about-us {
+    transform: translate(0%, 50%);
+    width: 100%;
+    margin: 0;
+    margin-top: -22%;
+}
+.ldd-cover-events {
+    transform: translate(0%, 50%);
+    width: 100%;
+    margin: 0;
+    margin-top: -20%;
+}
+
 
 .discord {
     z-index: 100;
@@ -151,12 +163,14 @@ body {
     font-size: 1.5vw;
     margin-left: 15%;
     margin-top: 10%;
+    margin-bottom: 0;
 }
 .ldd-logo{
     width: 40%;
     margin-left: 12%;
     margin-top: 2%;
     vertical-align: top;
+    margin-bottom: 0;
 }
 
 .oolong-origami1 {
