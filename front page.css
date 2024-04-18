@@ -4,13 +4,21 @@ p {
 }
 body {
     margin: 0;
-    background-color: #f7f3ff
-    ;
-  }
-  a {
+    background-color: #f7f3ff;
+    
+}
+
+a {
     text-decoration: none;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; 
   }
-  .hr {
+
+
+.hr {
   display: block;
   height: 1px;
   border: 0;
@@ -137,6 +145,13 @@ body {
     margin-top: -20%;
 }
 
+.ldd-cover-contact-us {
+    transform: translate(0%, 50%);
+    width: 100%;
+    margin: 0;
+    margin-top: -30vh;
+}
+
 
 .discord {
     z-index: 100;
@@ -201,4 +216,150 @@ body {
     display: inline-block;
     vertical-align: top;
 
+}
+
+.question-box {
+    display: inline-block;
+    flex: 1;
+    width: 70%;
+    margin-left: 15%;
+    height: 50vh;
+    background-color: #D4CAEC;
+    border-radius: 40px;
+    border: 1px solid #D4CAEC;
+}
+.fullname {
+    font-size: 30px;
+    width: 40%;
+    display: inline;
+    height: 5vh;
+    margin:5%;
+    background-color: #a37eff;
+    border-radius: 1vh;
+    border: 0.2vw solid #b99eff;
+    font-size: 100%;
+    font-weight: bold;  
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 2%;
+    margin-right: 0;
+
+}
+.fullname:focus {
+    border: 0.2vw solid #433170;
+    outline: none;
+}
+.email {
+    width: 40%;
+    display: inline;
+    height: 5vh;
+    margin-left:5%;
+    background-color: #a37eff;
+    border-radius: 1vh;
+    border: 0.2vw solid #b99eff;
+    font-size: 100%;
+    font-weight: bold;  
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 2%;
+    
+}
+.email:focus {
+    border: 0.2vw solid #433170;
+    outline: none;
+}
+
+.message {
+    width: 40vw;
+    display: block;
+    height: 20vh;
+    margin-left:20%;
+    background-color: #a37eff;
+    border-radius: 1vh;
+    border: 0.2vw solid #b99eff;
+    font-size: 100%;
+    font-weight: bold;  
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 2%;
+    padding-top: 2%;
+    margin-top: -5vh;
+}
+.message:focus {
+    border: 0.2vw solid #433170;
+    outline: none;
+    
+}
+
+.button {
+    font-size: 2vh;
+    display: inline-block;
+    width: 13vh;
+    height: 6vh;
+    background-color: #a37eff;
+    border-radius: 1vh;
+    border: 0.2vw solid #b99eff;
+    margin-left: 64vh;
+    margin-top: 3vh;
+    
+}
+
+.button:focus {
+    border: 0.2vw solid #433170;
+    outline: none;
+}
+
+.discord1 {
+    all: unset;
+    cursor: pointer;
+    width: 8vh;
+    opacity: 1;
+}    
+.discord1-button {
+    z-index: 100;
+    position: relative;
+    width: 1vh;
+    border-style: none;
+    background-color: #f7f3ff;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    vertical-align: top;  
+    
+}
+.instagram {
+    all: unset;
+    cursor: pointer;
+    width: 50%;
+    opacity: 1;
+
+}
+.instagram-button {
+    z-index: 100;
+    position: relative;
+    width: 15vh;
+    height: 10vh;
+    border-radius: 10vh;
+    border-style: none;
+    background-color: #f7f3ff;
+    object-fit: cover;
+    margin-top: 1vh;
+    vertical-align: top;
+}
+
+.linktree {
+    all: unset;
+    cursor: pointer;
+    width: 50%;
+    opacity: 1;
+}
+
+.linktree-button {
+    z-index: 100;
+    position: relative;
+    width: 40vh;
+    height: 10vh;
+    border-radius: 10vh;
+    border-style: none;
+    background-color: #f7f3ff;
+    object-fit: cover;
+    margin-left: 7vw;
+    margin-top: 1vh;
+    vertical-align: top;
 }
